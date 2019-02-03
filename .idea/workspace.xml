@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d9541e7-7bd2-49e2-8697-d8e52435c7ae" name="Default Changelist" comment="Possibly the final commit for this project:&#10;- Added new comments for both the GUI and text-based Tic Tac Toe&#10;  - Explains the why and the how of various functions and classes&#10;- Some more minor changes in all the classes&#10;- I tried a few other refactoring attempts to try to solve the NumberFormatException but I got some">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_Engine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_Engine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_GUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_GUI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_TextOnly.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_TextOnly.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu.uiowa/TicTacToeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu.uiowa/TicTacToeTest.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/java/.gradle/" />
+    <ignored path="$PROJECT_DIR$/java/build/" />
+    <ignored path="$PROJECT_DIR$/java/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/java">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_GUI.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2286">
+              <caret line="226" column="45" lean-forward="true" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#341#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_TextOnly.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#235#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_Engine.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>evalresult</find>
+      <find>reset</find>
+      <find>event</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rai, Adith &lt;adith-rai@uiowa.edu&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/TTT_GUI.form" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/GUI.form" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/GUI.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/gui.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/design.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sample/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sample/design.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/game_design.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/GameDesign.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/TicTacToe.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/design.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/DesignController.kt" />
+        <option value="$PROJECT_DIR$/src/test/java/TicTacToeTesy.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/Demo.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TicTacToe.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
+        <option value="$PROJECT_DIR$/src/test/java/edu.uiowa/TicTacToeTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_TextOnly.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_GUI.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_Engine.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="738" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="uiowa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project2820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project2820" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu.uiowa" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544675759994" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/edu.uiowa" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/edu/uiowa" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/sample" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.edu.uiowa.TTT_GUIKt">
+    <configuration name="TicTacToeApp" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edu.uiowa.Project2820.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeApp" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.uiowa.DesignControllerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edu.uiowa.Project2820.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.uiowa.DesignControllerKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.uiowa.TTT_GUIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edu.uiowa.Project2820.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.uiowa.TTT_GUIKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.uiowa.TTT_TextOnlyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edu.uiowa.Project2820.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.uiowa.TTT_TextOnlyKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.uiowa.TicTacToeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edu.uiowa.Project2820.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.uiowa.TicTacToeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.edu.uiowa.TTT_GUIKt" />
+        <item itemvalue="Kotlin.edu.uiowa.TTT_TextOnlyKt" />
+        <item itemvalue="Kotlin.edu.uiowa.TicTacToeKt" />
+        <item itemvalue="Kotlin.TicTacToeApp" />
+        <item itemvalue="Kotlin.edu.uiowa.DesignControllerKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d9541e7-7bd2-49e2-8697-d8e52435c7ae" name="Default Changelist" comment="" />
+      <created>1543996228090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543996228090</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New GitHub access established">
+      <created>1543997792478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543997792478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Reworked GUI file added &#10;- Changed to a radio button grid and added a confirm button so users&#10;  can change their mind if they want&#10;- Added graphical resources for future improvements&#10;- New GUI to engine integration (in progress)">
+      <created>1544078241947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544078241947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Created a separate text only version with the old engine&#10;- New engine in progress&#10;- Created a test file&#10;- Tests will be implemented after new engine &amp; GUI integration">
+      <created>1544091243370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544091243370</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Quick Update&#10;- Currently facing errors in the new engine modifications">
+      <created>1544112749201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544112749201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Figure out how to replace the scanner input with the radio button position input (pending)">
+      <created>1544114233906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544114233906</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Currently facing an ArrayIndexOutOfBoundsException that needs to be fixed.">
+      <created>1544142718670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544142718670</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Completely changed the GUI and Engine to a button format instead of the radio button grid after speaking to Jace.">
+      <created>1544250957938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544250957938</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Added new menus">
+      <created>1544330288143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544330288143</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added new comments&#10;- More specific comments for classes and methods pending&#10;- NumberFormatException error fix is pending">
+      <created>1544610038615</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544610038615</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833788" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49782294" visible="true" weight="0.23255815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50217706" side_tool="true" weight="0.32421342" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.04103967" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49852508" weight="0.3260274" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24893314" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32859176" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32947233" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17381974" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49782294" visible="true" weight="0.23255815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50217706" side_tool="true" weight="0.32421342" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.04103967" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49852508" weight="0.3260274" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24893314" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32859176" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32947233" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New GitHub access established" />
+    <MESSAGE value="- Reworked GUI file added &#10;- Changed to a radio button grid and added a confirm button so users&#10;  can change their mind if they want&#10;- Added graphical resources for future improvements&#10;- New GUI to engine integration (in progress)" />
+    <MESSAGE value="- Created a separate text only version with the old engine&#10;- New engine in progress&#10;- Created a test file&#10;- Tests will be implemented after new engine &amp; GUI integration" />
+    <MESSAGE value="- Quick Update&#10;- Currently facing errors in the new engine modifications" />
+    <MESSAGE value="- Figure out how to replace the scanner input with the radio button position input (pending)" />
+    <MESSAGE value="- Currently facing an ArrayIndexOutOfBoundsException that needs to be fixed." />
+    <MESSAGE value="Completely changed the GUI and Engine to a button format instead of the radio button grid after speaking to Jace." />
+    <MESSAGE value="- Added new menus" />
+    <MESSAGE value="Added new comments&#10;- More specific comments for classes and methods pending&#10;- NumberFormatException error fix is pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new comments&#10;- More specific comments for classes and methods pending&#10;- NumberFormatException error fix is pending" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/TTT_GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/TTT_GUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/TTTGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/GUI.form" />
+    <entry file="file://$PROJECT_DIR$/java/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/java/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/test/TicTacToeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/gui.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sample/design.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sample/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/GameDesign.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/game_design.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/X symbol.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/O symbol.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/X symbol.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/design.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/DesignController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TicTacTest.java.kt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TicTacToeTesy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/Demo.kt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/javafx-src.zip!/com/sun/glass/ui/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/eedd46031f8f5dc8c088e7d52f136d855fc1bddb/kotlin-stdlib-1.3.10-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/O symbol.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/style.css" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6784">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu.uiowa/TicTacToeTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_TextOnly.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#235#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_GUI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2286">
+          <caret line="226" column="45" lean-forward="true" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#341#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/edu/uiowa/TTT_Engine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|Project2820|uiowa</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
