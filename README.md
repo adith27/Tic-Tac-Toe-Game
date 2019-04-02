@@ -30,7 +30,7 @@
 - NumberFormatException cuased due to some parseInt error in the engine (Identified and fix is in progress)
 - New comments have been added and existing comments have been rephrased according to project requirements (Pending)
 - Unit Test file (Pending)
-- Documentation (In Progress - Will be uploaded to ICON and a Javadoc file will be added to Github if possible
+
 
 **Final Version:**
 
@@ -50,4 +50,4 @@
 - I would also like to introduce more functionality to the various menu buttons that are currently inactive
 - I am in fact doing some research right now for the Player v. Computer version of the game and how to apply the Player v. Player and the Player v. Computer to an Ultimate Tic Tac Toe version of the game
 - Finally I would like to have a scoreboard in the game that can track your scores against friends and the computer over time as well as make some design changes like using better colors throughout and also using a good image of X and O instead of just text. 
-- Last but not least I would love to make some small overall code design changes to the game in accordance to some of the concepts we learned in the book A Philosophy of Software Design 
+- Last but not least I would love to make some small overall code design changes to the game 
